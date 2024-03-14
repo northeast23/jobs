@@ -144,6 +144,7 @@ gantt
 ### models 업데이트후 오류 
 1. 0001_initial.py 삭제 후 makemigrations, migrate 재수행 
 2. makemigrations 할때 default 값 설정: "abc"
+A. 아니면 initial.py 와 db.sqlite3 같이 삭제 후 makemigrations 
 ### templates 확장/상속 
 1. 시간과 노력이 필요함
    
